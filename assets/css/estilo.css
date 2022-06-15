@@ -1,0 +1,48 @@
+body {
+    font-family: open-sans;
+    background-color:#FFF2D8 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+    background-color: rgb(222, 135, 179);
+    padding: 15px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 5px 5px rgb(194, 194, 194);
+}
+
+
+nav ul li {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.container {
+    /* Largura máxima*/
+    max-width: 900px;
+    /* Colocar uma sombrinha para deixar ele estiloso*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
+    /*Para centralizar um elemento block*/
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.linha {
+    background: linear-gradient(90deg, rgba(188,228,228,1) 5%, rgba(213,236,180,1) 5%, rgba(213,236,180,1) 10%, rgba(244,204,200,1) 10%, rgba(244,204,200,1) 15%, rgba(241,196,165,1) 15%, rgba(241,196,165,1) 20%, rgba(233,218,247,1) 20%, rgba(233,218,247,1) 25%, rgba(188,228,228,1) 25%, rgba(188,228,228,1) 30%, rgba(213,236,180,1) 30%, rgba(213,236,180,1) 35%, rgba(244,204,200,1) 35%, rgba(244,204,200,1) 40%, rgba(241,196,165,1) 40%, rgba(241,196,165,1) 45%, rgba(233,218,247,1) 45%, rgba(233,218,247,1) 50%, rgba(188,228,228,1) 50%, rgba(188,228,228,1) 55%, rgba(213,236,180,1) 55%, rgba(213,236,180,1) 60%, rgba(244,204,200,1) 60%, rgba(244,204,200,1) 65%, rgba(241,196,165,1) 65%, rgba(241,196,165,1) 70%, rgba(233,218,247,1) 70%, rgba(233,218,247,1) 75%, rgba(188,228,228,1) 75%, rgba(188,228,228,1) 80%, rgba(213,236,180,1) 80%, rgba(213,236,180,1) 85%, rgba(244,204,200,1) 85%, rgba(244,204,200,1) 90%, rgba(241,196,165,1) 90%, rgba(241,196,165,1) 95%, rgba(233,218,247,1) 95%);
+    height: 20px;
+    display: block;
+    border: none;
+
+  a{
+      text-decoration: none;
+      color: black;
+      font-size: 25px
+  }
